@@ -1,16 +1,16 @@
-##Compteri_Project
+# Compteri_Project
 
-####This projet is developed during Labs of the subject IoT Architecture :
+## This projet is developed during Labs of the subject IoT Architecture :
 
-By:
-Chouaib saad
+#### By:
+#### Chouaib saad
 
 Under-graduated students, 
 Embadded system and IoT Bachelors 
 
 
-Under the supervision of:
-Amira Henaien, 
+#### Under the supervision of:
+#### Amira Henaien, 
 Computer Science, Assistant Professor,
 Higher Institute of Computer Science Mahdia(ISIMA),
 University of Monastir Tunisia
@@ -32,7 +32,7 @@ intelligent consumption reduction and controling based on IoT
 *List of devices:
 required devices  :
 -esp32-cam module :
-![esp32cam](https://user-images.githubusercontent.com/106425884/209489181-06fce8cf-c6a2-43c4-96e8-3ebde009d16f.jpg)
+<img src="![esp32cam](https://user-images.githubusercontent.com/106425884/209489181-06fce8cf-c6a2-43c4-96e8-3ebde009d16f.jpg)" width="50%" height="50%">
 -esp32 module :
 ![esp32](https://user-images.githubusercontent.com/106425884/209489196-016231f0-73d0-480d-b7e3-cb623f3e8a24.jpg)
 -raspberrypi 4 (you can  replace it with laptop) : 
@@ -51,10 +51,10 @@ for security system you need : (not necessarly)
 
 -First you need to download the zip file of the project which contains all the files and source codes we need.
 
-###=>install the mobile app<=
+### =>install the mobile app<=
 -Download and install the mobile app : compteri app .
 
-###=>install frimware on the esp32-cam<=
+### =>install frimware on the esp32-cam<=
 1)fixe the camera position with video streaming sketch .
 2)install python from microsoft store .
 3)instal the model frimware from github .
@@ -85,11 +85,11 @@ en cas d'erreurs :
 *[su_spoiler title=”You get an error message that the ESPtool would not be present?” initial_state=”collapse”] :
 pip show -f esptool
 
-###=>upload the security module on esp32<=
+### =>upload the security module on esp32<=
 -the cose is located on "code module de securite esp32.ino" run and upload the code using arduino ide with micro-usb  cable .
 
 
-###=>install the broaker<=
+### =>install the broaker<=
 install the broaker on the raspberrypi 4 or on laptop  :
 -download and install mosquitto client server on your systeme using the offical site : https://mosquitto.org/download/
 -start the server with the following commands (nb : change the ip address with yours!)
@@ -105,7 +105,7 @@ mosquitto -v -c test.conf
 -you can subscribe to the server with (example of ip address) :
 mosquitto_sub -h 192.168.0.4 -t compteur/coutMesuree -d
 
-###=>setup & connections<=
+### =>setup & connections<=
 
 1)"compteri" carton model:
 ![photo reel2](https://user-images.githubusercontent.com/106425884/209491827-d3394bc7-1f32-452d-b5f4-4c80700ba7eb.jpg)
@@ -135,7 +135,7 @@ esp32 + PIR sensor diagram :
 ![pir](https://user-images.githubusercontent.com/106425884/209493633-73fb1de8-95a0-4fa9-957b-46d89f792021.jpg)
 
 
-###Congratulation your project is ready :) !
+### Congratulation your project is ready :) !
 
 
 

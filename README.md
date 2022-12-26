@@ -32,7 +32,7 @@ intelligent consumption reduction and controling based on IoT
 *List of devices:
 required devices  :
 -esp32-cam module :
-<img src="![esp32cam](https://user-images.githubusercontent.com/106425884/209489181-06fce8cf-c6a2-43c4-96e8-3ebde009d16f.jpg)" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/106425884/209489181-06fce8cf-c6a2-43c4-96e8-3ebde009d16f.jpg" width="50%" height="50%">
 -esp32 module :
 <img src="![esp32](https://user-images.githubusercontent.com/106425884/209489196-016231f0-73d0-480d-b7e3-cb623f3e8a24.jpg)
 " width="50%" height="50%">

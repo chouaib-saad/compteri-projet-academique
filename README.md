@@ -138,7 +138,7 @@ mosquitto_sub -h 192.168.0.4 -t compteur/coutMesuree -d
 <img src="https://user-images.githubusercontent.com/106425884/209493542-79aa86db-877d-4be7-8b9b-225dc965c661.png" width="30%" height="30%"> <br> <br> 
 
 
-esp32 + delonaide door lock module : <br> <br> 
+esp32 + selonaide door lock module : <br> <br> 
 <img src="https://user-images.githubusercontent.com/106425884/209493609-e3ca9d7c-c2be-4968-a684-f74563e424ce.jpg" width="30%" height="30%"> <br> <br> 
 
 

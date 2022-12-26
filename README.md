@@ -50,13 +50,17 @@ for security system you need : (not necessarly)  <br>  <br>
 
 
 
-
 -First you need to download the zip file of the project which contains all the files and source codes we need.
+                                                                                                                                          
+                                                                                                                                                                   </pre>
+
 
 ### =>install the mobile app<=
+<pre>
 -Download and install the mobile app : compteri app .
-
+                                                                                                                                          </pre>
 ### =>install frimware on the esp32-cam<=
+                                                                                                                                          <pre>
 1)fixe the camera position with video streaming sketch .
 2)install python from microsoft store .
 3)instal the model frimware from github .
@@ -87,11 +91,17 @@ en cas d'erreurs : <br>
 *[su_spoiler title=”You get an error message that the ESPtool would not be present?” initial_state=”collapse”] :
 pip show -f esptool
 
-### =>upload the security module on esp32<=
--the cose is located on "code module de securite esp32.ino" run and upload the code using arduino ide with micro-usb  cable .
+</pre>
 
+### =>upload the security module on esp32<=
+
+<pre>
+-the cose is located on "code module de securite esp32.ino" run and upload the code using arduino ide with micro-usb  cable .
+                                                           </pre>
 
 ### =>install the broaker<=
+                                                           
+                                                           <pre>
 install the broaker on the raspberrypi 4 or on laptop  :
 -download and install mosquitto client server on your systeme using the offical <a href="https://mosquitto.org/download/">site</a>
 -start the server with the following commands (nb : change the ip address with yours!)
@@ -107,7 +117,10 @@ mosquitto -v -c test.conf
 -you can subscribe to the server with (example of ip address) :
 mosquitto_sub -h 192.168.0.4 -t compteur/coutMesuree -d
 
+</pre>
 ### =>setup & connections<=
+
+<pre>
 
 1)"compteri" carton model: <br>
 <img src="https://user-images.githubusercontent.com/106425884/209491827-d3394bc7-1f32-452d-b5f4-4c80700ba7eb.jpg" width="30%" height="30%"> <br> <br> 
@@ -134,7 +147,11 @@ esp32 + PIR sensor diagram : <br> <br>
 
 <br>
                                                                                                                                           
+                                                                                                                                          </pre>
+                                                                                                                                          
 ### Congratulation your project is ready :) ! <br> 
+                                                                                                                                          
+                                                                                                                                       
 
 
 
@@ -148,8 +165,8 @@ esp32 + PIR sensor diagram : <br> <br>
 <br>
                                                                                                                                           
        
+                                                                                                                                       
 https://user-images.githubusercontent.com/106425884/209493831-5853e501-bccb-4adf-a828-69d4fe39999a.mp4
 
-</pre>
                       
                       

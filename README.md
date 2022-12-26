@@ -100,8 +100,8 @@ pip show -f esptool
                                                            </pre>
 
 ### =>install the broaker<=
-                                                           
-                                                           <pre>
+                                                         
+<pre>
 install the broaker on the raspberrypi 4 or on laptop  :
 -download and install mosquitto client server on your systeme using the offical <a href="https://mosquitto.org/download/">site</a>
 -start the server with the following commands (nb : change the ip address with yours!)

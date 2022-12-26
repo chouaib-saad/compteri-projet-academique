@@ -158,6 +158,18 @@ esp32 + PIR sensor diagram : <br> <br>
   margin-right: auto;">
 https://user-images.githubusercontent.com/106425884/209493831-5853e501-bccb-4adf-a828-69d4fe39999a.mp4
 </div>
+                      
+                      
+https://user-images.githubusercontent.com/106425884/209493831-5853e501-bccb-4adf-a828-69d4fe39999a.mp4
+                      
+                      
 
 
 
+<div style=" display: block;
+  margin-left: auto;
+  margin-right: auto;">
+     <video controls>
+    <source src="https://user-images.githubusercontent.com/106425884/209493831-5853e501-bccb-4adf-a828-69d4fe39999a.mp4" type="video/webm" />
+  </video>
+</div>

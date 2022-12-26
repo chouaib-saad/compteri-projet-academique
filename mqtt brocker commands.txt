@@ -1,0 +1,26 @@
+-test the free mqtt server : ping test.mosquitto.org   (public server = 91.121.93.94 )
+-show informations and start server : mosquitto -v
+cd C:\Program Files\mosquitto
+
+-pour publier :
+mosquitto_pub -h localhost -t topic/pub -m "message from p1" -r -i client -d
+
+-exemple pour s'abonner :
+mosquitto_sub -h localhost -t topic/# -d   => # : means subscribe to all topics
+
+-this command allow anonymous to send and receive data via ip adress :
+mosquitto -v -c test.conf
+
+- exemple de sub avec cmd :
+mosquitto_sub -h 192.168.0.8 -t HomeLed/dataFromEsp -d
+
+
+
+
+
+
+===============================
+cd C:\Program Files\mosquitto
+mosquitto -v -c test.conf
+- exemple de sub avec cmd :
+mosquitto_sub -h 192.168.0.4 -t compteur/coutMesuree -d

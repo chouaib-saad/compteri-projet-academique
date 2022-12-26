@@ -1,0 +1,58 @@
+﻿1)fixe the camera with video streaming code
+2)install python from microsoft store
+3)instal the jimjol frimware from github
+5)unzip the folder
+5)copy the content of sdcard folder on a sdcard <=16GB and formatted with fat32
+6)modify wlan.ini and enter username and password of wifi
+7)connect the esp32-cam to your computer
+8)insert the prepared sdcard
+9)install the required python libraries :
+
+10)navigate to the firmware folder and enter the following commands :
+=========================================================================
+sudo apt-get install python3-pip
+*Install ESP-Tool! :
+sudo pip install esptool
+*Change to the directory of the loaded firmware! :
+cd ~/Downloads/AI-on-the-edge-device-master/firmware/
+
+*Connect the ESP32 via USB to the computer and:
+esptool.py.exe erase_flash
+esptool.py.exe write_flash 0x01000 bootloader.bin 0x08000 partitions.bin 0x10000 firmware.bin
+=> the installation should install
+
+
+en cas d'erreurs :
+*[su_spoiler title=”You get an error message that the ESPtool would not be present?” initial_state=”collapse”] :
+pip show -f esptool
+
+=========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============================
+personalisation :
+modify ==> frimware/html.zip folder
+modify ==> sdcard/html folder
+===============================
+other matiers  solutions : log or lego bricks  (carton) .

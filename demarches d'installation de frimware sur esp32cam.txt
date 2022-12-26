@@ -14,7 +14,7 @@ sudo apt-get install python3-pip
 *Install ESP-Tool! :
 sudo pip install esptool
 *Change to the directory of the loaded firmware! :
-cd ~/Downloads/AI-on-the-edge-device-master/firmware/
+C:\Users\chouaieb saad\Desktop\projet github\le module learning pour esp32-cam (pour le calcule de consommation)\firmware
 
 *Connect the ESP32 via USB to the computer and:
 esptool.py.exe erase_flash

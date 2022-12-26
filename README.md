@@ -3,16 +3,16 @@
 ## This projet is developed during Labs of the subject IoT Architecture :
 
 #### By:
-#### Chouaib saad
+#### <a href="https://www.linkedin.com/in/chouaib-saad-bb4106219/">Chouaib saad</a>
 
 Under-graduated students, 
 Embadded system and IoT Bachelors 
 
 
 #### Under the supervision of:
-#### Amira Henaien, 
+#### <a href="https://www.linkedin.com/in/amirahenaien/">Amira Henaien</a>, 
 Computer Science, Assistant Professor,
-Higher Institute of Computer Science Mahdia(ISIMA),
+<a href="https://isima.rnu.tn/fra/home">Higher Institute of Computer Science Mahdia</a> (ISIMA),
 University of Monastir Tunisia
 
 
@@ -32,19 +32,19 @@ intelligent consumption reduction and controling based on IoT
 <pre>
 
 *List of devices:
-required devices  :
--esp32-cam module : <br>
+required devices  : <br>
+-esp32-cam module : <br> <br>
 <img src="https://user-images.githubusercontent.com/106425884/209489181-06fce8cf-c6a2-43c4-96e8-3ebde009d16f.jpg" width="30%" height="30%">
 -esp32 module : <br>  <br> 
-<img src="![esp32](https://user-images.githubusercontent.com/106425884/209489196-016231f0-73d0-480d-b7e3-cb623f3e8a24.jpg)" width="30%" height="30%">
+<img src="https://user-images.githubusercontent.com/106425884/209489196-016231f0-73d0-480d-b7e3-cb623f3e8a24.jpg" width="30%" height="30%">
 -raspberrypi 4 (you can  replace it with laptop) :  <br>  <br> 
 <img src="https://user-images.githubusercontent.com/106425884/209489201-702fc9c4-ccac-484b-bc94-728e968df215.jpg" width="30%" height="30%">
 for security system you need : (not necessarly)  <br>  <br> 
 -PIR sensor : <br>  <br> 
 <img src="https://user-images.githubusercontent.com/106425884/209489241-6426a0bc-49d7-4619-a44c-db60e4ac4a19.jpg" width=30%" height="30%"> <br> 
--jumper wires : <br>
+-jumper wires : <br> <br>
 <img src="https://user-images.githubusercontent.com/106425884/209489223-143ffd82-a10c-4d82-9035-2729156682b3.png" width="30%" height="30%"> <br> 
--Electronic Door Lock : <br>
+-Electronic Door Lock : <br> <br>
 <img src="https://user-images.githubusercontent.com/106425884/209489048-caf90bea-7eb2-4f76-8927-cdf57a904c61.jpg" width="30%" height="30%">
 
 
@@ -81,7 +81,7 @@ esptool.py.exe erase_flash
 esptool.py.exe write_flash 0x01000 bootloader.bin 0x08000 partitions.bin 0x10000 firmware.bin
 => the installation should complete succesfully ! <br> <br> 
 
-<img src="https://user-images.githubusercontent.com/106425884/209493973-3f1de797-60be-481d-93ff-db63131bd6a8.PNG" width="80%" height="80%"> <br> 
+<img style="display: block;margin-left: auto;margin-right: auto;width: 80%;" src="https://user-images.githubusercontent.com/106425884/209493973-3f1de797-60be-481d-93ff-db63131bd6a8.PNG" width="80%" height="80%"> <br> 
 
 en cas d'erreurs : <br>
 *[su_spoiler title=”You get an error message that the ESPtool would not be present?” initial_state=”collapse”] :
@@ -100,7 +100,7 @@ cd C:\Program Files\mosquitto
 -and start the server with this command :
 mosquitto -v -c test.conf
 <br>
-<img src="https://user-images.githubusercontent.com/106425884/209494218-40f85624-f4f8-4cb3-aa8f-dd152efe0c1c.PNG" width="80%" height="80%">
+<img style="display: block;margin-left: auto;margin-right: auto;width: 80%;" src="https://user-images.githubusercontent.com/106425884/209494218-40f85624-f4f8-4cb3-aa8f-dd152efe0c1c.PNG" width="80%" height="80%">
 
 <br>
 

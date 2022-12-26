@@ -29,6 +29,8 @@ intelligent consumption reduction and controling based on IoT
 -Warning in case of leak or the consumption is higher than normal.
 -integrate a remote payment module and get rid of waiting time in front of post offices.
 
+<pre>
+
 *List of devices:
 required devices  :
 -esp32-cam module : <br>
@@ -147,5 +149,7 @@ esp32 + PIR sensor diagram : <br> <br>
                                                                                                                                           
        
 https://user-images.githubusercontent.com/106425884/209493831-5853e501-bccb-4adf-a828-69d4fe39999a.mp4
+
+</pre>
                       
                       
